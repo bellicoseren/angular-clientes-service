@@ -19,7 +19,8 @@ import { DirectivaComponent } from './directiva/directiva.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  //providers: [ClienteService],
+  providers:[],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
